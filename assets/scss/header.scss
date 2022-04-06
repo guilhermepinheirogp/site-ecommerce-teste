@@ -1,0 +1,53 @@
+header{
+  background: $cor-primaria;
+  padding: 25px;
+
+  form{
+    input[type="text"]{
+      background: #fff;
+      width: 100%;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 100px;
+    }
+
+    button{
+      background: none;
+      border: none;
+      position: relative;
+      right: 40px;
+    }
+  }
+
+  ul{
+    li{
+      position: relative;
+
+      .notificacao{
+        color: $branco;
+        background: $rosa;
+        position: absolute;
+        top: -10px;
+        left: 1px;
+        font-size: 10px;
+        width: 15px;
+        height: 15px;
+        border-radius: 100%;  
+      }
+
+      a{
+        font-size: 16px;
+        font-weight: bold;
+        color: $cor-secundaria;
+
+        svg{
+          font-size: 23px;
+        }
+
+        &:hover{
+          color: initial;
+        }
+      }
+    }
+  }
+}
